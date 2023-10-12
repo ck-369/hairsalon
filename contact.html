@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<title>CHiKAhair</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="icon" type="images/png" href="images/favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1 id="header_logo">
+                <img src="images/logo1.png" alt="NESThair">
+                <p>京都駅から一番近いヘアサロンなら<br>
+                <span>CHiKAhair</span></p>
+            </h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">ホーム</a></li>
+                    <li><a href="menu.html">メニュー一覧</a></li>
+                    <li id="nav_now"><a href="contact.html">ご予約</a></li>
+                </ul>
+            </nav>
+
+            <div class="clear"></div>
+
+            <p id="nav_tel">
+                <img src="images/tel_nav.jpg" alt="お電話でのご予約は">
+            </p>
+
+        </header>
+
+        <h2 id="heading" class="box-shadow">
+            ご予約・お問い合わせ
+        </h2>
+
+        <div class="container">
+            <div id="left" class="box-shadow">
+                <h3>ご予約・お問い合わせフォーム</h3>
+                <p id="contact_text">
+                    下記お問い合わせフォームよりご希望の日時、ご予約内容をお知らせください。<br>
+                    お問い合わせの場合は、【お客様ご要望欄】に記入して送信してください。
+                </p>
+                <form>
+                    <table>
+                        <tr>
+                            <td class="form_title">
+                                <label for="name">お名前</label>
+                            </td>
+                            <td class="form_contents">
+                                <input type="text" id="name">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="form_title">
+                                <label for="tel">お電話番号</label>
+                            </td>
+                            <td class="form_contents">
+                                <input type="text" id="tel">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="form_title">
+                                <label for="time">ご希望日時</label>
+                            </td>
+                            <td class="form_contents">
+                                <input type="text" class="time">年
+                                <input type="text" class="time">月
+                                <input type="text" class="time">日
+                                <input type="text" class="time">時から
+                                <input type="text" class="time">時まで
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="form_title">
+                                <label for="menu">ご希望メニュー</label>
+                            </td>
+                            <td class="form_contents">
+                                <input type="checkbox" id="menu_cut" value="カット">
+                                <label for="menu_cut">カット</label>
+                                <input type="checkbox" id="menu_color" value="カラー">
+                                <label for="menu_color">カラー</label>
+                                <input type="checkbox" id="menu_perm" value="パーマ">
+                                <label for="menu_perm">パーマ</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="form_title">
+                                <label for="textarea">お客様ご要望欄</label>
+                            </td>
+                            <td class="form_contents">
+                                <textarea id="textarea"></textarea>                                </textarea>
+                            </td>
+                        </tr>
+                    </table>
+                    <p id="submit">
+                        <input type="submit" value="送信する">
+                    </p>
+                </form>
+            </div>
+
+            <div id="right">
+                <ul>
+                    <li class="box-shadow"><a id="blog" href="#">スタイリストブログ</a></li>
+                </ul>
+
+                <div id="movie">PR<br>
+                <iframe width="366" height="200" src="https://www.youtube.com/embed/X2tmK7LtMKg?si=U2uyRVZ9xpryYq-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </div>
+    </div><!-- //#wrapper -->
+
+    <footer>
+        <p>Copyright (C) 2020-2023 Campus inc. All Right Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
